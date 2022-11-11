@@ -1,0 +1,27 @@
+[package]
+name = "fonky"
+version = "0.1.0"
+authors = ["qewer33 <qewer@qewer.dev>"]
+edition = "2021"
+
+[dependencies]
+qmetaobject = "0.2.7"
+cstr = "0.2"
+log = "0.4"
+env_logger = "0.9"
+kirigami = "0.1"
+ki18n = { version = "1.2", features = ["qmetaobject"] }
+qmeta-async = { git = "https://gitlab.com/rubdos/qmeta-async" }
+tokio = { version = "1.21.0", features = ["full"] }
+font-kit = "0.11.0"
+dirs = "4.0.0"
+ureq = "2.5.0"
+ttf-parser = "0.17.1"
+walkdir = "2.3.2"
+
+[[bin]]
+name = "fonky"
+path = "src/main.rs"
+
+[package.metadata.appimage]
+auto_link = true

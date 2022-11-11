@@ -1,0 +1,12 @@
+# Build files
+debug/
+target/
+libs/
+*.AppImage
+*.deb
+
+# rustfmt backup files
+**/*.rs.bk
+
+# rustc MSVC Windows debugging info files
+*.pdb
