@@ -7,7 +7,7 @@
 ![](https://img.shields.io/static/v1?style=for-the-badge&label=KDE&message=Kirigami&color=blue&logo=kde)
 ![](https://img.shields.io/static/v1?style=for-the-badge&label=Qt&message=QML&color=green&logo=qt)
 
-![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B8FQ871)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B8FQ871)
 
 </div>
 
