@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 APPDIR="./target/fonky.AppDir"
-ICON=""
+ICON="./assets/icon.svg"
 DESKTOP_FILE=""
 SETUP_FOLDERS=(
     "/usr/lib/qt/qml"
@@ -35,6 +35,10 @@ ENV_VARS=(
 
 # Build and setup AppDir
 cargo appimage
+
+# Setup icon
+rm "$APPDIR/icon.png"
+cp "$ICON" "$APPDIR/icon.svg"
 
 # Setup .env file
 rm "$APPDIR/.env"
